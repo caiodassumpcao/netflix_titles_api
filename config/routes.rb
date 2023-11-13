@@ -1,9 +1,4 @@
 Rails.application.routes.draw do
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
-
-  # Defines the root path route ("/")
-  # root "articles#index"
-
-  resource
-  get ''
+  resources :netflix_titles, only: [:index]
+  get '/netflix_titles/filter', to: 'netflix_titles#filter'
 end
