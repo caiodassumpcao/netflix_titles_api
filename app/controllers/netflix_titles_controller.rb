@@ -1,5 +1,5 @@
 class NetflixTitlesController < ApplicationController
-  before_action :set_netflix_title, only: [show]
+  before_action :set_netflix_title, only: [:show]
 
   def index
     @netflix_titles = NetflixTitle.order(year: :asc)
@@ -11,10 +11,13 @@ class NetflixTitlesController < ApplicationController
     render json: @netflix_titles
   end
 
+  def show
+    render json: @netflix_title
+  end
+
   private
 
   def set_netflix_title
-    @netflix_titles = NetflixTitle.find(params[:id])
+    @netflix_title = NetflixTitle.find(params[:id])
   end
 end
-

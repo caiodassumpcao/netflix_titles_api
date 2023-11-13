@@ -3,11 +3,7 @@ class ApplicationController < ActionController::API
 
   private
 
-  def render_nout_found
+  def render_not_found
     render json: { error: 'Not Found' }, status: :not_found
   end
 end
-class NetflixTitlesController < ApplicationController
-
-end
-
