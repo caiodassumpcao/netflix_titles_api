@@ -1,13 +1,29 @@
 <h1>Netflix Titles List</h1>
-<% @netflix_titles.each do |title| %>
-  <div>
-    <h2><%= title.title %></h2>
-    <p>Genre: <%= title.genre %></p>
-    <p>Year: <%= title.year %></p>
-    <p>Country: <%= title.country %></p>
-    <p>Published At: <%= title.published_at %></p>
-    <p>Description: <%= title.description %></p>
-    <hr>
-  </div>
-<% end %>
+<div class="container">
+  <table class="table">
+    <thead>
+    <tr>
+      <th>Title</th>
+      <th>Genre</th>
+      <th>Year</th>
+      <th>Country</th>
+      <th>Published At</th>
+      <th>Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    <% @netflix_titles.each do |title| %>
+      <tr>
+        <td><%= title.title %></td>
+        <td><%= title.genre %></td>
+        <td><%= title.year %></td>
+        <td><%= title.country %></td>
+        <td><%= title.published_at %></td>
+        <td><%= title.description %></td>
+      </tr>
+    <% end %>
+    </tbody>
+  </table>
+</div>
+
 <%= link_to 'Back to Home', root_path, class: 'btn btn-primary' %>

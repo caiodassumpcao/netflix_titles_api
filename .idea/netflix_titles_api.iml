@@ -72,6 +72,7 @@
     <orderEntry type="library" scope="PROVIDED" name="puma (v5.6.7, rbenv: 2.7.8) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="racc (v1.7.3, rbenv: 2.7.8) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack (v2.2.8, rbenv: 2.7.8) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rack-proxy (v0.7.7, rbenv: 2.7.8) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-test (v2.1.0, rbenv: 2.7.8) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails (v7.0.8, rbenv: 2.7.8) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails-dom-testing (v2.2.0, rbenv: 2.7.8) [gem]" level="application" />
@@ -80,11 +81,13 @@
     <orderEntry type="library" scope="PROVIDED" name="rake (v13.1.0, rbenv: 2.7.8) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rdoc (v6.6.0, rbenv: 2.7.8) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="reline (v0.4.0, rbenv: 2.7.8) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="semantic_range (v3.0.0, rbenv: 2.7.8) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sqlite3 (v1.6.8, rbenv: 2.7.8) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="stringio (v3.0.9, rbenv: 2.7.8) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="thor (v1.3.0, rbenv: 2.7.8) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="timeout (v0.4.1, rbenv: 2.7.8) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tzinfo (v2.0.6, rbenv: 2.7.8) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="webpacker (v5.4.4, rbenv: 2.7.8) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="websocket-driver (v0.7.6, rbenv: 2.7.8) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="websocket-extensions (v0.1.5, rbenv: 2.7.8) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="zeitwerk (v2.6.12, rbenv: 2.7.8) [gem]" level="application" />
